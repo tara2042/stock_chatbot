@@ -75,17 +75,6 @@ ehthumbs.db
 Icon?
 
 
-# Ignore everything...
-*
-
-# ...but not these:
-!*.py
-!*.ipynb
-!*.txt
-!*.md
-!.gitignore
-!requirements.txt
-
 # Optional: ignore hidden system files, cache, environments, etc.
 __pycache__/
 *.pyc
