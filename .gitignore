@@ -1,0 +1,101 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# --- Python cache and compiled files ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+.stockbot/
+stockbot/
+.venv/
+
+# --- VS Code settings ---
+.vscode/
+
+# --- Environment files / Secrets ---
+.env
+.env.*
+
+# --- Jupyter / Notebook cache ---
+.ipynb_checkpoints/
+
+# --- SQLite and local data ---
+*.db
+*.sqlite3
+db.sqlite3
+*.sqlite
+
+# --- Logs, debug and temp files ---
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Ollama model downloads (optional, usually in home dir) ---
+# If you store models in your project folder
+ollama_models/
+*.gguf
+*.bin
+
+# --- Output or artifacts ---
+output/
+models/
+exports/
+checkpoints/
+runs/
+
+# --- pip and package files ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Coverage reports ---
+htmlcov/
+.coverage
+.cache
+.tox/
+.nox/
+
+# --- MyPy / Lint / Test reports ---
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# --- System files ---
+*.DS_Store
+ehthumbs.db
+Icon?
+
+
+# Ignore everything...
+*
+
+# ...but not these:
+!*.py
+!*.ipynb
+!*.txt
+!*.md
+!.gitignore
+!requirements.txt
+
+# Optional: ignore hidden system files, cache, environments, etc.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+*.db
+.DS_Store
+.idea/
+.vscode/
+*.sqlite
+stock.db

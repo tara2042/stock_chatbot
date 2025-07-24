@@ -1,0 +1,31 @@
+# LLM & RAG
+openai
+langchain
+faiss-cpu
+tiktoken
+sentence-transformers
+
+# Local LLM via Ollama
+ollama  # wrapper for talking to Ollama (optional, or use just requests)
+
+# Data handling
+pandas
+numpy
+matplotlib
+scikit-learn
+
+# Database
+sqlalchemy
+sqlite-utils
+
+# Web App / API
+streamlit
+fastapi
+uvicorn
+
+# Utilities
+python-dotenv
+tabulate
+requests
+beautifulsoup4
+yfinance
